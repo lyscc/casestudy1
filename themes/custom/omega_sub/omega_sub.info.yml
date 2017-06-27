@@ -1,0 +1,38 @@
+name: omega_sub
+type: theme
+description: ''
+version: 8.x-5.x
+'base theme': omega
+hidden: false
+core: 8.x
+force_export: false
+regions:
+  header: Header
+  page_top: 'Page Top'
+  highlighted: Highlighted
+  preface_first: 'Preface First'
+  preface_second: 'Preface Second'
+  preface_third: 'Preface Third'
+  preface_fourth: 'Preface Fourth'
+  content: Content
+  postscript_first: 'Postscript First'
+  postscript_second: 'Postscript Second'
+  postscript_third: 'Postscript Third'
+  postscript_fourth: 'Postscript Fourth'
+  footer1: 'footer1'
+  footer2: 'footer2'
+  footer3: 'footer3'
+  footer: Footer
+  page_bottom: 'Page Bottom'
+features:
+  logo: true
+  name: true
+  slogan: true
+  node_user_picture: true
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  main_menu: true
+  secondary_menu: true
+scss_support: false
+inherit_layout: false

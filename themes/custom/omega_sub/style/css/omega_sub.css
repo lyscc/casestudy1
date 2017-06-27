@@ -1,0 +1,338 @@
+/* SAMPLE CSS FILE CONTENTS */
+body {
+    padding: 0;
+    background: #fff;
+    font-family: "Rubik",sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #0a0a0a;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a:hover{
+    color: #0580fb;
+}
+
+.hide {
+    display: none;
+}
+
+.video-embed-field-responsive-video {
+    margin: auto;
+    width: 60%;
+}
+
+.menu--social {
+	float: right;
+}
+
+.view-mission img,
+.view-what-we-do img,
+.view-distribution img {
+	width: 100%;
+}
+
+.menu--television .menu,
+.menu--online-videos .menu,
+.menu--the-sip .menu,
+.menu--distribution .menu,
+.menu--project-dad .menu,
+.menu--hiddenheroes .menu {
+	text-align: center;
+}
+.menu--television a,
+.menu--online-videos a,
+.menu--the-sip a,
+.menu--distribution a,
+.menu--project-dad a,
+.menu--hiddenheroes a {
+    border: 1px solid #767676;
+    color: #767676;
+    
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 1rem;
+    padding: .85em 1em;
+    -webkit-appearance: none;
+    border-radius: 0;
+    transition: background-color .25s ease-out,color .25s ease-out;
+    font-size: .9rem;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+}
+.menu--project-dad {
+    border-bottom: 1px solid #cacaca;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+#block-views-block-meet-the-dads-block-1 h2{
+	font-size: 16px;
+}
+.view-meet-the-dads {
+	width: 90%;
+    margin: auto;
+}
+.view-meet-the-dads .views-row {
+	margin-bottom: 10px;
+}
+.ds-2col > .group-left {
+	width: 20%;
+	padding-right: .9375rem;
+    padding-left: .9375rem;
+}
+
+.ds-2col > .group-right {
+	width: 80%;
+	padding-right: .9375rem;
+    padding-left: .9375rem;
+}
+#block-views-block-recent-press-block-1 {
+	border-top: 1px solid #cacaca;
+}
+#block-views-block-recent-press-block-1 h2{
+	font-size: 16px;
+}
+.menu--follow-project-dad-on-socia {
+    border-top: 1px solid #cacaca;
+}
+.menu--follow-project-dad-on-socia h2 {
+    font-size: 16px;
+}
+nav.menu--follow-project-dad-on-socia ul li {
+    display: inherit;
+    margin: 20px 0;
+}
+
+/* footer */
+
+@media (min-width: 1220px) {
+    #footer-container1  {
+        display: block;
+        position: relative;
+        clear: none;
+        width: 97.917%;
+        margin-right: 1.042%;
+        margin-left: 1.042%;
+        float: left;
+        border-top: 1px solid #cacaca;
+    }
+}
+@media (min-width: 0px){
+    #footer-container1 {
+        display: block;
+        position: relative;
+        clear: none;
+        width: 97.917%;
+        margin-right: 1.042%;
+        margin-left: 1.042%;
+        float: left;
+        border-top: 1px solid #cacaca;
+    }
+}
+.region--footer1,
+.region--footer2,
+.region--footer3 {
+    float: left;
+    width: 33.33%;
+}
+/* footer1 */
+.menu--chicken-soup-for-the-soul-e * {
+    color: #000;
+}
+#block-chickensoupforthesoulentertainment-menu a{
+    font-size: 18px;
+}
+
+.menu--chicken-soup-for-the-soul-e .menu a {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.menu--chicken-soup-for-the-soul-e ul li {
+    margin: 3px 0 !important;
+    display: block !important;
+}
+/* footer2 */
+#footer-container1 .menu--social{
+    width: 60px;
+    margin: auto;
+    float: none;
+    margin-top: 26px;
+}
+/* footer3 */
+.menu--chicken-soup-for-the-soul-s * {
+    color: #000;
+}
+#block-chickensoupforthesoulsfamilyofproducts-menu a{
+    font-size: 18px;
+}
+
+.menu--chicken-soup-for-the-soul-s .menu a {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.menu--chicken-soup-for-the-soul-s ul li {
+    margin: 3px 0 !important;
+    display: block !important;
+}
+.menu--chicken-soup-for-the-soul-s * {
+    text-align: right;
+}
+/* Privacy Policy */
+#footer-container2 div{
+    text-align: center;
+    font-size: 1em;
+    font-weight: 300;
+}
+#footer-container2 a {
+    color: #000;
+}
+#footer-container2 p {
+    margin: 0 5px;
+}
+/* our team */
+.field--name-dynamic-token-fielduser-user-id {
+    display: none;
+}
+.view-display-id-our_team_teaser .views-col {
+    margin: 10px 0;
+}
+.view-display-id-our_team_teaser .views-col img {
+    width: 90%;
+}
+.view-display-id-our_team_teaser .control-team-col .field--name-field-user-image img{
+    filter: grayscale(100%);
+}
+.view-display-id-our_team_teaser .control-team-col {
+    cursor: pointer;
+}
+.view-display-id-our_team_teaser .control-team-col .team-user-id {
+    display: none;
+}
+/* our team attachment */
+.view-display-id-our_team_full .group-left {
+    width: 30%;
+    padding-right: 0;
+    padding-left: 0;
+}
+.view-display-id-our_team_full  .group-right {
+    width: 65%;
+    padding-right: .9375rem;
+    padding-left: .9375rem;
+}
+.field--name-username {
+    text-align: center;
+}
+.field--name-field-duty {
+    text-align: center;
+}
+
+/* dots view slideshow */
+.views-slideshow-controls-bottom {
+    /* 控制dots位置 */
+    position: absolute;
+    bottom: 30px;
+    /* 在图片上层显示dots层 */
+    z-index: 100;
+    /* 控制dots居中 */
+    width: 100%;
+    text-align: center;
+}
+.views_slideshow_pager_field_item {
+    /* 三个dots在一行显示 */
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    margin: 0 5px;
+}
+.active {
+    background-color: #fff;
+    opacity: .75;
+}
+.views-content-nothing {
+    display: block;
+    border-radius: 50px;
+    height: 12px;
+    width: 12px;
+    padding: 5px;
+
+    background-color: #fff;
+    border: 1px solid #fff;
+
+    cursor: pointer;
+    /* 隐藏内容 */
+    font-size: 0;
+    line-height: 0;
+}
+/* front page what we do */
+.view-id-front_what_we_do .views-col {
+    margin: 10px 0;
+}
+.view-id-front_what_we_do .views-col img {
+    width: 90%;
+}
+.view-id-front_what_we_do .views-field-field-what-we-do-image .field-content {
+    text-align: center;
+}
+.view-id-front_what_we_do .views-field-title  {
+    text-align: center;
+}
+.view-id-front_what_we_do .views-field-title .field-content a {
+    color: #000;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+#block-views-block-front-what-we-do-block-1 h2 {
+    text-align: center;
+}
+
+/* special front basic page */
+.teaser-region {
+    text-align: center;
+    border-bottom: 1px solid #cacaca;
+    margin-top: -20px;
+    padding-bottom: 20px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)
+{
+    .menu--social {
+        display: none;
+    }
+    .views-view-grid .views-col {
+        float: none;
+        width: 100% !important;
+    }
+    .region-footer1,
+    .region-footer2,
+    .region-footer3 {
+        float: none;
+        width: 100% !important;
+    }
+    .menu--chicken-soup-for-the-soul-s * {
+        text-align: left;
+    }
+
+    .ds-2col > .group-left {
+        width: 100% !important;
+    }
+
+    .ds-2col > .group-right {
+        width: 100% !important;;
+    }
+    .view-display-id-our_team_full .group-left {
+        width: 100% !important;
+    }
+    .view-display-id-our_team_full  .group-right {
+        width: 100% !important;
+    }
+}

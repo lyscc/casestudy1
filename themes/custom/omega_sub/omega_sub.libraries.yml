@@ -1,0 +1,23 @@
+omega_sub:
+  omega:
+    allow_clone_for_subtheme: true
+    allow_enable_disable: true
+    title: 'Default library for the omega_sub theme'
+    description: 'Default Omega subtheme library description. Please provide a more meaningful description (and title) for this library by editing the omega_sub.libraries.yml file.'
+    scss:
+      style/css/omega_sub.css: 'style/scss/omega_sub.scss'
+  version: VERSION
+  js:
+    js/omega_sub.js: {}
+  css:
+    theme:
+      style/css/omega_sub.css: {}
+      style/css/superfish_white.css: {}
+  dependencies:
+    - core/modernizr
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+    - core/backbone
+    - core/matchmedia
+    - core/jquery.once

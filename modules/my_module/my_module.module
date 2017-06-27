@@ -1,0 +1,33 @@
+<?php
+
+use Drupal\Component\Utility\SafeMarkup;
+
+/**
+ * Implements hook_preprocess_hook().
+ */
+function my_module_preprocess_block(&$vars) {
+
+  //$block_id = ($vars['elements']['#id']);
+
+//    print_r('1========================1');
+    /*
+    print_r('1========================1');
+    print_r($vars);
+    print_r('2========================2');
+    var_dump($vars);
+    print_r('3========================3');
+    debug($vars);
+*/
+    //$vars['label'] = SafeMarkup::set('<a href="/"'>' . t($vars['label']) . '</a>');
+}
+
+function my_module_block_view_alter(array &$build, \Drupal\Core\Block\BlockPluginInterface $block) {
+    //if($build['#plugin_id'] == 'chickensoupforthesoulentertainment' || $build['#plugin_id'] == 'chicken-soup-for-the-soul-e') {
+//        $build['#configuration']['label'] = SafeMarkup::set('<a href="/">123'. $build['#configuration']['label'] .'</a>');
+    //}
+
+    // Remove the contextual links on all blocks that provide them.
+    if (isset($build['#contextual_links'])) {
+
+    }
+}

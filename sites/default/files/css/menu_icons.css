@@ -1,0 +1,25 @@
+
+
+/* THEME DEBUG */
+/* THEME HOOK: 'simple_menu_icons_css_item' */
+/* BEGIN OUTPUT from 'modules/simple_menu_icons/templates/simple-menu-icons-css-item.html.twig' */
+
+    a.menu-icon-13,
+    ul.links li.menu-icon-13 a,
+    ul.menu li.menu-icon-13 a {
+        background-image: url(/sites/default/files/menu_icons/twitter-logo_1.png);
+        padding-left:256px;
+        background-repeat: no-repeat;
+        background-position: left center;
+    }
+    a.menu-icon-14,
+    ul.links li.menu-icon-14 a,
+    ul.menu li.menu-icon-14 a {
+        background-image: url(/sites/default/files/menu_icons/linkedin-logo_0.png);
+        padding-left:256px;
+        background-repeat: no-repeat;
+        background-position: left center;
+    }
+
+/* END OUTPUT from 'modules/simple_menu_icons/templates/simple-menu-icons-css-item.html.twig' */
+

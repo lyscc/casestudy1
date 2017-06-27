@@ -1,0 +1,14 @@
+uuid: 1bfd97a4-6618-4df4-9506-06d4e83571af
+name: 'Chicken Soup for the Soul'
+mail: beBetterLy@126.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
